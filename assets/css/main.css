@@ -401,8 +401,10 @@ input, select, textarea {
 			}
 
 			#main .item.intro {
-				background-color: #d64760;
-				background-image: url("images/overlay.png");
+				background-color: #2452d1;
+				background-image: url("images/overlay.png"), linear-gradient(217deg, rgba(0,255,0,0.5), rgba(0,255,0,0) 70.71%),
+        linear-gradient(127deg, rgba(255,0,0,0.6), rgba(255,0,0,0) 70.71%),
+        linear-gradient(336deg, rgba(0,0,255,0.8), rgba(0,0,255,0) 70.71%);
 				display: -moz-flex;
 				display: -webkit-flex;
 				display: -ms-flex;
@@ -633,6 +635,7 @@ input, select, textarea {
 			text-align: left;
 			max-width: 36em;
 			padding-right: 2em;
+      opacity: 0.25;
 		}
 
 		#footer > section:last-child {
@@ -643,7 +646,7 @@ input, select, textarea {
 		#footer h2 {
 			font-size: 2.25em;
 			margin: 0 0 1em 0;
-		}
+    }
 
 		#footer .copyright li {
 			display: inline-block;
