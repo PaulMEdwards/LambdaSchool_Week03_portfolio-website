@@ -20,7 +20,7 @@ _ Watch this walk through video:  https://youtu.be/P2Y9W29kcjs
 ### Follow these steps to download your template and start the project:
 
 - [x] Navigate here: [https://html5up.net/](https://html5up.net/)
-- [ ] You make pick any template you like.  Selected:
+- [x] Selected template:
 	- [https://html5up.net/parallelism](https://html5up.net/parallelism)
 
 - [x] Unzip the code and copy the site to your git repository that you just set up
