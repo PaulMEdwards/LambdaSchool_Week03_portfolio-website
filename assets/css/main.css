@@ -432,6 +432,11 @@ input, select, textarea {
 					line-height: 1em;
 				}
 
+				#main .item.intro h2 {
+					font-size: 2em;
+					line-height: 0.8em;
+				}
+
 				#main .item.intro p {
 					font-size: 1.25em;
 					line-height: 1.5em;
@@ -554,6 +559,18 @@ input, select, textarea {
       #main .item {
         height: 25vh;
       }
+
+        #main .item.intro h1 {
+          font-size: 2em;
+        }
+
+        #main .item.intro h2 {
+          font-size: 1.5em;
+        }
+
+        #main .item.intro p {
+          font-size: 1em;
+        }
   
         #main .item.span-1 {
           width: 30vh;
@@ -616,6 +633,10 @@ input, select, textarea {
 
 						#main .item.intro h1 {
 							font-size: 2em;
+						}
+
+						#main .item.intro h2 {
+							font-size: 1.5em;
 						}
 
 						#main .item.intro p {
