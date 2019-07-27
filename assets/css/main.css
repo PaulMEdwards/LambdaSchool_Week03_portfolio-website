@@ -87,9 +87,11 @@ input, select, textarea {
 		background-image: url("images/overlay.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/bg.jpg");
 		background-image: url("images/overlay.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/bg.jpg");
 		background-image: url("images/overlay.png"), linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/bg.jpg");
-		background-position: top left, bottom left, auto;
-		background-size: auto, 100% 100%, cover;
-		background-attachment: fixed;
+    /* background-position: top left, bottom left, auto; */
+    background-position: center;
+    /* background-size: auto, 100% 100%, cover; */
+    background-size: auto 100%;
+		/* background-attachment: fixed; */
 		background-repeat: repeat, no-repeat, auto;
 		position: relative;
 		background-color: #150C07;
@@ -384,20 +386,25 @@ input, select, textarea {
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
 			margin: 5px;
-			height: 16em;
+			/* height: 16em; */
+			/* height: 13em; */
+			height: 25vh;
 			box-shadow: 0 0 0 10px #ffffff;
 		}
 
 			#main .item.span-1 {
-				width: 20em;
+				/* width: 20em; */
+				width: 30vh;
 			}
 
 			#main .item.span-2 {
-				width: 30em;
+				/* width: 30em; */
+				width: 40vh;
 			}
 
 			#main .item.span-3 {
-				width: 40em;
+				/* width: 40em; */
+				width: 50vh;
 			}
 
 			#main .item.intro {
@@ -528,8 +535,7 @@ input, select, textarea {
 			}
 
 		@media screen and (max-width: 1680px) {
-
-			#main .item {
+			/* #main .item {
 				height: 14em;
 			}
 
@@ -543,7 +549,23 @@ input, select, textarea {
 
 				#main .item.span-3 {
 					width: 34em;
-				}
+				} */
+
+      #main .item {
+        height: 25vh;
+      }
+  
+        #main .item.span-1 {
+          width: 30vh;
+        }
+  
+        #main .item.span-2 {
+          width: 40vh;
+        }
+  
+        #main .item.span-3 {
+          width: 50vh;
+        }
 
 		}
 
@@ -580,16 +602,16 @@ input, select, textarea {
 					-webkit-flex-shrink: 1;
 					-ms-flex-shrink: 1;
 					flex-shrink: 1;
-					width: calc(50vw - 15px) !important;
 					margin: 2.5px;
 					box-shadow: 0 0 0 5px #ffffff;
+					width: calc(50vw - 15px) !important;
 				}
 
 					#main .item.intro {
-						width: calc(100vw - 20px) !important;
 						text-align: center;
-						height: auto;
 						padding: 3em;
+						height: auto;
+						width: calc(100vw - 20px) !important;
 					}
 
 						#main .item.intro h1 {
@@ -635,7 +657,7 @@ input, select, textarea {
 			text-align: left;
 			max-width: 36em;
 			padding-right: 2em;
-      opacity: 0.25;
+      /* opacity: 0.25; */
 		}
 
 		#footer > section:last-child {
