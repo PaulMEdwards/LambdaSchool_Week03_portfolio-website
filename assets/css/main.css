@@ -410,22 +410,22 @@ body.is-poptrox-visible #wrapper {
   padding: 1em 3em;
 }
 
-#main .item.intro h1 {
-  font-size: 3em;
-  line-height: 1em;
-}
+  #main .item.intro h1 {
+    font-size: 5vh;
+    line-height: 5vh;
+  }
 
-#main .item.intro h2 {
-  font-size: 2em;
-  line-height: 0.8em;
-}
+  #main .item.intro h2 {
+    font-size: 3vh;
+    line-height: 3vh;
+  }
 
-#main .item.intro p {
-  font-size: 1.25em;
-  line-height: 1.5em;
-  margin: 0.5em 0 0 0;
-  opacity: 0.65;
-}
+  #main .item.intro p {
+    font-size: 2vh;
+    line-height: 2vh;
+    margin: 0.5em 0 0 0;
+    opacity: 0.65;
+  }
 
 #main .item.thumb {
   display: block;
@@ -527,29 +527,29 @@ body.is-preload #main .item.thumb img {
     height: 25vh;
   }
 
-  #main .item.intro h1 {
-    font-size: 2em;
-  }
+    #main .item.intro h1 {
+      font-size: 5vh;
+    }
 
-  #main .item.intro h2 {
-    font-size: 1.5em;
-  }
+    #main .item.intro h2 {
+      font-size: 3vh;
+    }
 
-  #main .item.intro p {
-    font-size: 1em;
-  }
+    #main .item.intro p {
+      font-size: 2vh;
+    }
 
-  #main .item.span-1 {
-    width: 30vh;
-  }
+    #main .item.span-1 {
+      width: 30vh;
+    }
 
-  #main .item.span-2 {
-    width: 40vh;
-  }
+    #main .item.span-2 {
+      width: 40vh;
+    }
 
-  #main .item.span-3 {
-    width: 50vh;
-  }
+    #main .item.span-3 {
+      width: 50vh;
+    }
 
 }
 
@@ -598,17 +598,17 @@ body.is-preload #main .item.thumb img {
     width: calc(100vw - 20px) !important;
   }
 
-  #main .item.intro h1 {
-    font-size: 2em;
-  }
+    #main .item.intro h1 {
+      font-size: 5vh;
+    }
 
-  #main .item.intro h2 {
-    font-size: 1.5em;
-  }
+    #main .item.intro h2 {
+      font-size: 3vh;
+    }
 
-  #main .item.intro p {
-    font-size: 1em;
-  }
+    #main .item.intro p {
+      font-size: 2vh;
+    }
 
   #main .item.thumb h2 {
     display: none;
@@ -749,7 +749,7 @@ body.is-preload #main .item.thumb img {
   bottom: 0;
   left: 0;
   background: #1a1f2c;
-  background: rgba(18, 21, 29, 0.85);
+  background: rgba(18, 21, 29, 0.67);
   display: block;
   width: 100%;
   line-height: 75px;
@@ -822,7 +822,7 @@ body.is-preload #main .item.thumb img {
   content: '\f104';
 }
 
-@media screen and (max-width: 736px) {
+/* @media screen and (max-width: 736px) {
 
   .poptrox-popup {
     background: #0a0f1c;
@@ -846,4 +846,4 @@ body.is-preload #main .item.thumb img {
     display: none !important;
   }
 
-}
+} */
