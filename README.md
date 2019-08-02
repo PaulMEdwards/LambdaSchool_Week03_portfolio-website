@@ -41,7 +41,7 @@ _ Watch this walk through video:  https://youtu.be/P2Y9W29kcjs
 
 ### Live Site:
 #### _(viewable after merge to master)_
-https://paulmedwards.github.io/LambdaSchool_portfolio-website/
+https://paulmedwards.github.io/LambdaSchool_Week03_portfolio-website/
 
 ## Stretch
 
